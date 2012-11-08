@@ -1,0 +1,48 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: url(img/bg1.png) repeat-x;
+}
+
+
+.wrapper
+{
+	width: 1024px;
+	box-shadow:  0px 10px 15px -2px #000;
+	margin: 0px auto;
+}
+
+.header
+{
+	background: url(img/bnr1.png) no-repeat;
+	width: 1024px;
+	height:258px;
+	margin: 62px 0;
+}
+
+.menu1
+{
+	float: right;
+}
+.menuList
+{
+	margin: .7em 0px;
+	float: left;
+	width: auto;
+	font-size:1.6em;
+	font-weight: bold;
+	list-style-type: none;
+
+}
+
+.menuList li
+{
+	display: block;
+	float: left;
+	padding: 0px 0px 0px 10px;
+}
