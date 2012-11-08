@@ -1,0 +1,115 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+Fonts
+*/
+
+
+@font-face {
+    font-family: 'OxygenRegular';
+    src: url('Oxygen-webfont.eot');
+    src: url('Oxygen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Oxygen-webfont.woff') format('woff'),
+         url('Oxygen-webfont.ttf') format('truetype'),
+         url('Oxygen-webfont.svg#OxygenRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OxygenItalic';
+    src: url('Oxygen-Italic-webfont.eot');
+    src: url('Oxygen-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Oxygen-Italic-webfont.woff') format('woff'),
+         url('Oxygen-Italic-webfont.ttf') format('truetype'),
+         url('Oxygen-Italic-webfont.svg#OxygenItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OxygenBold';
+    src: url('Oxygen-Bold-webfont.eot');
+    src: url('Oxygen-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Oxygen-Bold-webfont.woff') format('woff'),
+         url('Oxygen-Bold-webfont.ttf') format('truetype'),
+         url('Oxygen-Bold-webfont.svg#OxygenBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OxygenBoldItalic';
+    src: url('Oxygen-BoldItalic-webfont.eot');
+    src: url('Oxygen-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Oxygen-BoldItalic-webfont.woff') format('woff'),
+         url('Oxygen-BoldItalic-webfont.ttf') format('truetype'),
+         url('Oxygen-BoldItalic-webfont.svg#OxygenBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*
+Fonts
+*/
+
+body
+{
+	background: url(img/bg1.png) repeat-x;
+}
+
+
+.wrapper
+{
+	width: 1024px;
+	box-shadow:  0px 10px 15px -2px #000;
+	margin: 0px auto;
+}
+
+.header
+{
+	background: url(img/bnr1.png) no-repeat;
+	width: 1024px;
+	height:320px;
+	margin: 0px 0;
+	padding: 16px;
+}
+
+.menu1
+{
+	float: right;
+	padding-right: 16px; 
+}
+
+.menu1 A:link {text-decoration: none}
+.menu1 A:visited {text-decoration: none}
+.menu1 A:active {text-decoration: none}
+.menu1 A:hover {text-decoration: underline;}
+
+
+.menuList
+{
+	margin: .7em 0px;
+	float: left;
+	width: auto;
+	font-size:1.6em;
+	font-weight: bold;
+	list-style-type: none;
+
+}
+
+.menuList li
+{
+	display: block;
+	float: left;
+	padding: 0px 0px 0px 10px;
+}
