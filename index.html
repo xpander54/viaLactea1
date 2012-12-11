@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8" />
 	<title>Industrias Via Lactea</title>
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 		<LINK REL=StyleSheet HREF="style.css" TYPE="text/css">
@@ -18,11 +20,37 @@
 			
 			<nav class="menu1">
 				<ul class="menuList">
-					<li><a href="index.html" class="shadow1">Inicio</a></li>
-					<li><a class="shadow1" href="#">Productos</a></li>
-					<li><a class="shadow1" href="#">Servicios</a></li>
-					<li><a class="shadow1" href="#">Sucursales</a></li>
-					<li><a class="shadow1" href="#">Contacto</a></li>
+					<li><a href="#" class="active btn1 shadow1"  data-url="slideIndex.htm">Inicio</a></li>
+					<li id="menu-productos">
+
+						<a class="shadow1 btn1" data-url="productos.htm"  href="#">Productos</a>
+
+						<div class="productos-submenu">
+							
+							<h3><a href="#">Gomitas de Grenetina</a></h3>
+
+								<ul class="productos-menu-list">
+									<li><a href="#">Cubiertas de Azúcar</a></li>
+									<li><a href="#">Cubiertas de Chile</a></li>
+									<li><a href="#">Sabores Exoticos</a></li>
+									<li><a href="#">Eventos Especiales</a></li>
+									<li><a href="#">Sin Cobertura de Azúcar</a></li>
+									<li><a href="#">Sin Azúcar</a></li>
+
+
+								</ul>
+								<br>
+
+							<h3><a href="#">Snacks Naturales</a></h3>
+
+
+
+						</div>
+
+					</li>
+					<li><a class="shadow1 btn1" data-url="servicios.htm" href="#">Servicios</a></li>
+					<li><a class="shadow1 btn1" data-url="sucursales.htm" href="#">Sucursales</a></li>
+					<li><a class="shadow1 btn1" data-url="contacto.htm"href="#">Contacto</a></li>
 				</ul>
 			</nav>
 			
@@ -33,71 +61,83 @@
 
 		</header>
 
-		<section class="main">
+		<section class="slide-container">
 			
-			
 
-
-			<!--
-			CARROUSEL
-			
-			-->
-
-
-			<div class="carousel1">
+			<section class="main">
 				
-			
-				<div id="myCarousel" class="carousel slide">
-				  <!-- Carousel items -->
-				  <div class="carousel-inner">
-				    <div class="active item"><img src="slide1/1.png"><div class="carousel-caption"><p><h2>Galletas de chocolate</h2></p></div></div>
-				    <div class="item"><img src="slide1/3.png"><div class="carousel-caption"><p><h1>Gomitas de equinacia</h1></p></div></div>
-				    <div class="item"><img src="slide1/2.png"><div class="carousel-caption"><p><h1>Miel de Abeja</h1></p></div></div>
-				    <div class="item"><img src="slide1/4.png"><div class="carousel-caption"><p><h1>Eventos Especiales</h1></p></div></div>
-				    <div class="item"><img src="slide1/5.png"><div class="carousel-caption"><p><h1>Gomitas de coraz&oacute;n</h1></p></div></div>
-				  </div>
-				  <!-- Carousel nav -->
-				  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-				  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+				
+
+
+				<!--
+				CARROUSEL
+				
+				-->
+
+
+				<div class="carousel1">
+					
+				
+					<div id="myCarousel" class="carousel slide">
+					  <!-- Carousel items -->
+					  <div class="carousel-inner">
+					    <div class="active item"><img src="slide1/1.png"><div class="carousel-caption"><p><h2>Galletas de chocolate</h2></p></div></div>
+					    <div class="item"><img src="slide1/3.png"><div class="carousel-caption"><p><h1>Gomitas de equinacia</h1></p></div></div>
+					    <div class="item"><img src="slide1/2.png"><div class="carousel-caption"><p><h1>Miel de Abeja</h1></p></div></div>
+					    <div class="item"><img src="slide1/4.png"><div class="carousel-caption"><p><h1>Eventos Especiales</h1></p></div></div>
+					    <div class="item"><img src="slide1/5.png"><div class="carousel-caption"><p><h1>Gomitas de coraz&oacute;n</h1></p></div></div>
+					  </div>
+					  <!-- Carousel nav -->
+					  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+					  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+					</div>
+
+					
+				
 				</div>
 
+				<!--
+				CARROUSEL
 				
+				-->
+
+
+
+			</section>
 			
-			</div>
+			<footer class="main">
+					
+				<div class="foot2">
+				<p> 
+					En industrias V&iacute;a L&aacute;ctea nos dedicamos a fabricar GOMITAS, SNACKS y en general alimentos de calidad incorporando materias primas dise&ntilde;adas tecnol&oacute;gicamente para ofrecer como resultado alimentos funcionales. Industrias V&iacute;a L&aacute;ctea fue creada en 2001 y hasta la fecha nos hemos esforzado por atender tus necesidades y ayudarte a desarrollar productos a la medida. 
+				</p>
+	<br>
+				<div class="foot1">
 
-			<!--
-			CARROUSEL
+					&copy;Industrias Via Lactea 2012
+				</div>
+	<br>
+	<br>
+
+			</footer>
+
+			<script type="text/javascript">
+	
+				$('.carousel').carousel({
+				  interval: 4000
+				})
+
+			</script>
+
+
+
 			
-			-->
-
-
-
 		</section>
-		
-		<footer class="main">
-				
-			<div class="foot2">
-			<p> 
-				En industrias V&iacute;a L&aacute;ctea nos dedicamos a fabricar GOMITAS, SNACKS y en general alimentos de calidad incorporando materias primas dise&ntilde;adas tecnol&oacute;gicamente para ofrecer como resultado alimentos funcionales. Industrias V&iacute;a L&aacute;ctea fue creada en 2001 y hasta la fecha nos hemos esforzado por atender tus necesidades y ayudarte a desarrollar productos a la medida. 
-			</p>
-<br>
-			<div class="foot1">
-
-				&copy;Industrias Via Lactea 2012
-			</div>
-<br>
-<br>
-
-		</footer>
-
 	</section>
 
-<script type="text/javascript">
-	
-	$('.carousel').carousel({
-	  interval: 4000
-	})
 
-</script>
+<script src="js/script.js"> </script>
+
+
 </body>
 </html>
